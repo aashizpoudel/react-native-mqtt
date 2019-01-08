@@ -295,7 +295,7 @@ public class RCTMqtt implements MqttCallback{
     try {
         encodedPayload = payload.getBytes("UTF-8");
         MqttMessage message = new MqttMessage(encodedPayload);
-        client.publish(topic, message);
+        client.publish(topic, message,qos,retain);
     } catch (UnsupportedEncodingException | MqttException e) {
         e.printStackTrace();
     }
