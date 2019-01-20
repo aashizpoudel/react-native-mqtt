@@ -1,5 +1,5 @@
 {
-  "name": "react-native-mqtt",
+  "name": "react-native-mqtts",
   "version": "0.1.0-beta4",
   "description": "MQTT client for react-native",
   "main": "index.js",
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tuanpmt/react-native-mqtt.git"
+    "url": "git+https://github.com/aashizpoudel/react-native-mqtt.git"
   },
   "keywords": [
     "mqtt",
     "reactnative",
     "iot"
   ],
-  "author": "Tuan PM <tuanpm@live.com> (http://tuanpm.net)",
+  "author": "Aashiz Poudel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tuanpmt/react-native-mqtt/issues"
+    "url": "https://github.com/aashizpoudel/react-native-mqtt/issues"
   },
-  "homepage": "https://github.com/tuanpmt/react-native-mqtt#readme"
+  "homepage": "https://github.com/aashizpoudel/react-native-mqtt#readme"
 }
